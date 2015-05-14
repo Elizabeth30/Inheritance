@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Child.h"
 @interface ViewController ()
 
 @end
@@ -15,7 +15,12 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    Child*myChild=[Child alloc];
+    myChild=[myChild init ];
+    [myChild Print];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

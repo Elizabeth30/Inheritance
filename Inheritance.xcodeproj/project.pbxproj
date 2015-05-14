@@ -14,6 +14,8 @@
 		76E927DE1B04D86C00DD26A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E927DD1B04D86C00DD26A1 /* Images.xcassets */; };
 		76E927E11B04D86C00DD26A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E927DF1B04D86C00DD26A1 /* LaunchScreen.xib */; };
 		76E927ED1B04D86C00DD26A1 /* InheritanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E927EC1B04D86C00DD26A1 /* InheritanceTests.m */; };
+		76E927F81B04D8F700DD26A1 /* parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E927F71B04D8F700DD26A1 /* parent.m */; };
+		76E927FB1B04D91A00DD26A1 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E927FA1B04D91A00DD26A1 /* Child.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		76E927E61B04D86C00DD26A1 /* InheritanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InheritanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E927EB1B04D86C00DD26A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76E927EC1B04D86C00DD26A1 /* InheritanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InheritanceTests.m; sourceTree = "<group>"; };
+		76E927F61B04D8E000DD26A1 /* Parent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		76E927F71B04D8F700DD26A1 /* parent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parent.m; sourceTree = "<group>"; };
+		76E927F91B04D90800DD26A1 /* Child.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		76E927FA1B04D91A00DD26A1 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				76E927DD1B04D86C00DD26A1 /* Images.xcassets */,
 				76E927DF1B04D86C00DD26A1 /* LaunchScreen.xib */,
 				76E927D01B04D86C00DD26A1 /* Supporting Files */,
+				76E927F61B04D8E000DD26A1 /* Parent.h */,
+				76E927F71B04D8F700DD26A1 /* parent.m */,
+				76E927F91B04D90800DD26A1 /* Child.h */,
+				76E927FA1B04D91A00DD26A1 /* Child.m */,
 			);
 			path = Inheritance;
 			sourceTree = "<group>";
@@ -220,8 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				76E927D91B04D86C00DD26A1 /* ViewController.m in Sources */,
+				76E927F81B04D8F700DD26A1 /* parent.m in Sources */,
 				76E927D61B04D86C00DD26A1 /* AppDelegate.m in Sources */,
 				76E927D31B04D86C00DD26A1 /* main.m in Sources */,
+				76E927FB1B04D91A00DD26A1 /* Child.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
