@@ -19,11 +19,14 @@
     [super viewDidLoad];
     Child*myChild=[Child alloc];
     myChild=[myChild init ];
-    [myChild Print];
+    [self Process: myChild];
+    
     
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+-(void) Process : (Parent*) P{
+    [P Print];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

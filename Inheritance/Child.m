@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Child.h"
 @implementation Child
-
+-(void) Print{
+    NSLog (@"In Child");
+}
 @end
